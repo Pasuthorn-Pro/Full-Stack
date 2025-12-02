@@ -4,3 +4,4 @@ function findParameter(lenght, width) {
 }
 
 let result = findParameter(10, 5);
+console.log("Perimeter is: " + result);
