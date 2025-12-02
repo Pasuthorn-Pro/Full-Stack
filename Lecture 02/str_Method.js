@@ -7,7 +7,7 @@ const nameParts = cleanName.split(" ");
 console.log(nameParts);
 
 const finalParts = nameParts.filter(Boolean);
-console.log(finalParts.join(" - "));
+console.log(finalParts.join(" "));
 
 const firstName = finalParts[0];
 
